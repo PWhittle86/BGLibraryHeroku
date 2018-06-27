@@ -1,0 +1,83 @@
+
+body {
+background-image: url('/chess-background-copy.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+nav {
+  font-family: Fjalla One, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+nav p {
+  margin: 0 10px;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Noto Sans, sans-serif;
+  color: black;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  font-family: Fjalla One, sans-serif;
+  font-size: 95px;
+  color: black;
+}
+
+.heading {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: Fjalla One, sans-serif;
+  color: black;
+}
+
+.list {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Noto Sans, sans-serif;
+  color: black;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  background-color: transparent;
+  border: solid 1px black;
+  border-radius: 2px;
+  font-family: Noto Sans, sans-serif;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: grey;
+  transition: background-color 0.5s ease;
+}
