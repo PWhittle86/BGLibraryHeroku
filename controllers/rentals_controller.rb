@@ -2,7 +2,7 @@ require('sinatra')
 require('sinatra/contrib/all') if development?
 require_relative('../models/game')
 require_relative('../models/customer')
-also_reload('./models/*')
+# also_reload('./models/*')
 
 get '/rentals' do
   @rented_games = Game.not_available
